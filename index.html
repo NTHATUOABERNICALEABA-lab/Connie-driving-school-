@@ -1,69 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Connie Driving School</title>
-<link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Connie Driving School</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<header>
-  <h1>Connie Driving School</h1>
-  <p>Your Road to Confidence Starts Here 🚗</p>
-</header>
+<!-- LOADER -->
+
+<div class="loader">
+
+  <h1>CONNIE</h1>
+
+</div>
+
+<!-- NAVBAR -->
 
 <nav>
-  <a href="#services">Services</a>
-  <a href="#pricing">Pricing</a>
-  <a href="#booking">Book Now</a>
-  <a href="#contact">Contact</a>
+
+  <div class="logo">
+    Connie Driving School
+  </div>
+
+  <ul>
+
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#fees">Fees</a></li>
+    <li><a href="#booking">Booking</a></li>
+    <li><a href="#contact">Contact</a></li>
+
+  </ul>
+
 </nav>
 
-<section class="hero">
-  <h2>Learn to Drive with Confidence</h2>
-  <p>Professional, Friendly & Certified Instructors</p>
-  <a href="#booking" class="btn">Book Your Lesson</a>
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+
+    <h3>PREMIUM DRIVING LESSONS</h3>
+
+    <h1>
+      Connie <span>Driving</span> School
+    </h1>
+
+    <p>
+      Professional driving lessons for manual and automatic vehicles.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="tel:+26662112929" class="gold-btn">
+        Call Now
+      </a>
+
+      <a href="https://wa.me/26662112929" class="outline-btn">
+        WhatsApp
+      </a>
+
+    </div>
+
+  </div>
+
 </section>
 
-<section id="services">
+<!-- COUNTERS -->
+
+<section class="counters">
+
+  <div class="counter-box">
+
+    <h1 class="counter" data-target="1200">0</h1>
+
+    <p>Students Trained</p>
+
+  </div>
+
+  <div class="counter-box">
+
+    <h1 class="counter" data-target="98">0</h1>
+
+    <p>Pass Rate %</p>
+
+  </div>
+
+  <div class="counter-box">
+
+    <h1 class="counter" data-target="8">0</h1>
+
+    <p>Years Experience</p>
+
+  </div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="services" id="services">
+
   <h2>Our Services</h2>
-  <div class="cards">
-    <div class="card">Beginner Lessons</div>
-    <div class="card">Advanced Driving</div>
-    <div class="card">Test Preparation</div>
+
+  <div class="service-grid">
+
+    <div class="card">
+      <h3>Learners</h3>
+      <p>Preparation for learner’s license.</p>
+    </div>
+
+    <div class="card">
+      <h3>Theory Classes</h3>
+      <p>Melao le mats'oao a tsela.</p>
+    </div>
+
+    <div class="card">
+      <h3>Basic Mechanism</h3>
+      <p>Vehicle basics and maintenance.</p>
+    </div>
+
+    <div class="card">
+      <h3>Practical</h3>
+      <p>Manual & automatic driving lessons.</p>
+    </div>
+
   </div>
+
 </section>
 
-<section id="pricing">
-  <h2>Packages</h2>
-  <div class="cards">
-    <div class="card">Basic Package - M500</div>
-    <div class="card">Standard Package - M1200</div>
-    <div class="card">Premium Package - M2500</div>
+<!-- GALLERY -->
+
+<section class="gallery" id="gallery">
+
+  <h2>Driving Gallery</h2>
+
+  <p>
+    Professional driving school vehicles.
+  </p>
+
+  <div class="gallery-grid">
+
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop">
+
+    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop">
+
+    <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=1200&auto=format&fit=crop">
+
+    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=1200&auto=format&fit=crop">
+
   </div>
+
 </section>
 
-<section id="booking">
-  <h2>Book a Lesson</h2>
-  <form onsubmit="sendMessage(event)">
-    <input type="text" placeholder="Your Name" required>
-    <input type="text" placeholder="Phone Number" required>
-    <button type="submit">Book via WhatsApp</button>
+<!-- FEES -->
+
+<section class="fees" id="fees">
+
+  <h2>Fee Structure</h2>
+
+  <div class="fee-grid">
+
+    <div class="price-card">
+
+      <h3>2 Months Cash</h3>
+
+      <h1>R3.5k</h1>
+
+      <p>Cash Payment</p>
+
+    </div>
+
+    <div class="price-card featured">
+
+      <h3>Instalment</h3>
+
+      <h1>R4k</h1>
+
+      <p>Pay half then later half</p>
+
+    </div>
+
+    <div class="price-card">
+
+      <h3>Including License</h3>
+
+      <h1>R5k</h1>
+
+      <p>Complete Package</p>
+
+    </div>
+
+  </div>
+
+  <div class="extra">
+
+    <p>Per Day: <strong>R180</strong></p>
+
+    <p>Skill Improvement: <strong>R2 500</strong></p>
+
+  </div>
+
+</section>
+
+<!-- BOOKING -->
+
+<section class="booking" id="booking">
+
+  <h2>Book Driving Lessons</h2>
+
+  <form onsubmit="sendBooking(event)" class="booking-form">
+
+    <input type="text" id="name" placeholder="Full Name" required>
+
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <select id="package">
+
+      <option>2 Months Cash</option>
+      <option>Instalment</option>
+      <option>Including License</option>
+
+    </select>
+
+    <select id="transmission">
+
+      <option>Manual</option>
+      <option>Automatic</option>
+
+    </select>
+
+    <input type="date" id="date" required>
+
+    <button type="submit">
+      Book On WhatsApp
+    </button>
+
   </form>
+
 </section>
 
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p>📞 +266 5663 7211</p>
-  <p>📧 example@email.com</p>
+<!-- TESTIMONIALS -->
+
+<section class="testimonials">
+
+  <h2>Testimonials</h2>
+
+  <div class="testimonial-grid">
+
+    <div class="testimonial">
+
+      <p>
+        “Passed first attempt. Very professional.”
+      </p>
+
+      <h4>- Student</h4>
+
+    </div>
+
+    <div class="testimonial">
+
+      <p>
+        “Best instructors and clean vehicles.”
+      </p>
+
+      <h4>- Client</h4>
+
+    </div>
+
+    <div class="testimonial">
+
+      <p>
+        “Very patient and supportive.”
+      </p>
+
+      <h4>- Driver</h4>
+
+    </div>
+
+  </div>
+
 </section>
 
-<footer>
-  <p>© 2026 Connie Driving School</p>
-</footer>
+<!-- QUIZ -->
+
+<section class="quiz">
+
+  <h2>Learners Test</h2>
+
+  <div class="quiz-box">
+
+    <p>
+      What does a red traffic light mean?
+    </p>
+
+    <button onclick="checkAnswer(true)">
+      Stop
+    </button>
+
+    <button onclick="checkAnswer(false)">
+      Speed Up
+    </button>
+
+    <button onclick="checkAnswer(false)">
+      Ignore
+    </button>
+
+    <h3 id="result"></h3>
+
+  </div>
+
+</section>
+
+<!-- TIMER -->
+
+<section class="timer-section">
+
+  <h2>Driving Lesson Timer</h2>
+
+  <div id="timer">
+    30:00
+  </div>
+
+  <button onclick="startTimer()">
+    Start Lesson
+  </button>
+
+</section>
+
+<!-- SOCIALS -->
+
+<section class="socials">
+
+  <h2>Follow Us</h2>
+
+  <div class="social-links">
+
+    <a href="https://www.tiktok.com">TikTok</a>
+
+    <a href="https://www.facebook.com">Facebook</a>
+
+    <a href="https://www.instagram.com">Instagram</a>
+
+    <a href="https://wa.me/26662112929">WhatsApp</a>
+
+  </div>
+
+</section>
+
+<!-- MAP -->
+
+<section class="map">
+
+  <h2>Find Us</h2>
+
+  <iframe src="https://maps.google.com/maps?q=maseru&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+  <h2>
+    Start Your Driving Journey
+  </h2>
+
+  <p>
+    Contact Connie Driving School today.
+  </p>
+
+  <a href="tel:+26662112929" class="contact-btn">
+    ☎ 62112929
+  </a>
+
+</section>
+
+<!-- WHATSAPP -->
+
+<a href="https://wa.me/26662112929" class="whatsapp">
+  WhatsApp
+</a>
+
+<!-- MUSIC -->
+
+<audio autoplay loop>
+
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=luxury-background-112191.mp3">
+
+</audio>
 
 <script src="script.js"></script>
+
 </body>
 </html>
